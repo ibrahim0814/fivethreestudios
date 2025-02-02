@@ -7,9 +7,9 @@ const features = [
       "AI assistants take perfect meeting notes, manage your inbox, and handle scheduling. A virtual team that works 24/7 so you can focus on growth.",
   },
   {
-    title: "Market Insights",
+    title: "Automated Outreach",
     content:
-      "Get real-time consumer feedback and market data at your fingertips. Advanced search analytics and financial APIs reveal golden opportunities others miss.",
+      "Turn cold leads into hot prospects with AI-powered outreach. Smart email rotation, intelligent warmup, and automated follow-ups ensure maximum deliverability and response rates.",
   },
   {
     title: "Rapid Design",
