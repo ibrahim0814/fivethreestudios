@@ -2,7 +2,7 @@ import { CTASection } from '@/components/blocks/cta-with-rectangle';
 
 export function CTAFooter() {
   return (
-    <section className="min-h-[60vh] py-20 flex items-center justify-center overflow-hidden bg-white pb-16">
+    <section className="min-h-[60vh] py-8 md:py-20 flex items-center justify-center overflow-hidden bg-white pb-16">
       <div className="relative z-10 container mx-auto">
         <CTASection
           badge={{

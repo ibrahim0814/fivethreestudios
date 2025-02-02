@@ -39,7 +39,7 @@ export function CTASection({
       <div className="absolute inset-0 bg-black/[0.02] rounded-3xl" />
 
       {/* Content Container */}
-      <div className="relative px-6 py-10 md:px-10 text-center">
+      <div className="relative px-6 py-6 md:py-10 md:px-10 text-center">
         {/* Badge */}
         {badge && (
           <div className="inline-block mb-4 px-3 py-1 rounded-full bg-black/[0.03] text-sm">
@@ -48,7 +48,7 @@ export function CTASection({
         )}
 
         {/* Title */}
-        <h2 className="text-3xl md:text-5xl font-bold mb-6 max-w-6xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 max-w-6xl mx-auto">
           {title}
         </h2>
 

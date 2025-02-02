@@ -84,7 +84,7 @@ export function BackgroundPaths({ title = 'Background Paths' }: { title?: string
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white via-white/80 to-transparent z-10" />
       </div>
 
-      <div className="relative z-20 container mx-auto px-8 md:px-6 text-left pt-24 sm:pt-16">
+      <div className="relative z-20 container mx-auto px-8 md:px-6 text-left pt-16 sm:pt-16">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -93,7 +93,7 @@ export function BackgroundPaths({ title = 'Background Paths' }: { title?: string
         >
           <h1 className="text-7xl sm:text-7xl md:text-8xl font-bold mb-8 tracking-tighter flex flex-col sm:block">
             {words.map((word, wordIndex) => (
-              <span key={wordIndex} className="inline-block sm:mr-4 last:mr-0 mb-4 sm:mb-0">
+              <span key={wordIndex} className="inline-block sm:mr-4 last:mr-0 mb-2 sm:mb-0">
                 {word.split('').map((letter, letterIndex) => (
                   <motion.span
                     key={`${wordIndex}-${letterIndex}`}
@@ -136,7 +136,7 @@ export function BackgroundPaths({ title = 'Background Paths' }: { title?: string
             </div>
           </motion.div>
 
-          <div className="block">
+          <div className="flex justify-center sm:justify-start">
             <a
               href="https://calendly.com/ibrahim0814/fivethree-consult"
               target="_blank"

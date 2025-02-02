@@ -2,14 +2,14 @@ import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    title: "Market Insights",
-    content:
-      "Get real-time consumer feedback and market data at your fingertips. Advanced search analytics and financial APIs reveal golden opportunities others miss.",
-  },
-  {
     title: "Smart Operations",
     content:
       "AI assistants take perfect meeting notes, manage your inbox, and handle scheduling. A virtual team that works 24/7 so you can focus on growth.",
+  },
+  {
+    title: "Market Insights",
+    content:
+      "Get real-time consumer feedback and market data at your fingertips. Advanced search analytics and financial APIs reveal golden opportunities others miss.",
   },
   {
     title: "Rapid Design",

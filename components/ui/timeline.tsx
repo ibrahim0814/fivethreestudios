@@ -48,13 +48,13 @@ export function Timeline({ data }: { data: TimelineEntry[] }) {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden md:block text-lg md:pl-20 md:text-4xl font-bold text-neutral-500 dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+              <h3 className="md:hidden block text-xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
               {item.content}{" "}
@@ -85,13 +85,13 @@ const data = [
     title: "Foundation & Discovery",
     content: (
       <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
+        <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-lg font-normal mb-8">
           We analyze your unique operational challenges to identify high-impact AI opportunities
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card variant="inner" className="p-6">
             <h4 className="font-semibold mb-2">Core Mission</h4>
-            <p className="text-base text-neutral-600 dark:text-neutral-400">Democratizing AI for businesses of all sizes</p>
+            <p className="text-lg text-neutral-600 dark:text-neutral-400">Democratizing AI for businesses of all sizes</p>
           </Card>
         </div>
       </div>
@@ -101,7 +101,7 @@ const data = [
     title: "Strategic Implementation",
     content: (
       <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
+        <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-lg font-normal mb-8">
           Deploy tailored AI solutions that integrate seamlessly with your existing workflows
         </p>
       </div>
@@ -111,7 +111,7 @@ const data = [
     title: "Sustainable Growth",
     content: (
       <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
+        <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-lg font-normal mb-8">
           Achieve 40% cost reduction and 25% revenue growth through continuous AI optimization
         </p>
       </div>

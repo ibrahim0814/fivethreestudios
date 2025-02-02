@@ -18,7 +18,7 @@ export function AIRealitySection() {
             <div className="space-y-4">
               {[
                 'AI will completely replace human jobs and eliminate the workforce',
-                'You need an expensive team of data scientists and engineers with degrees machine learning',
+                'You need an expensive team of data scientists and engineers with degrees in machine learning',
                 'It’s all about fancy robots and chatbots taking over everything',
                 'AI is far too complex and expensive for small business implementation',
                 'It’s just another tech bubble that will burst soon',
